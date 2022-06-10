@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">PanaderiaPasteleria</string>
+    <string name="bienvenida">¡Bienvenido! Un gusto atenderlo</string>
+    <string name="btn_nuevoPedido">Nuevo pedido</string>
+    <string name="description">Del cielo a su mesa</string>
+
+    <string name="tipoSabor">Elija su Sabor</string>
+    <string-array name="tipoSaborGalletas">
+        <item>Mantequilla</item>
+        <item>Macadamia</item>
+        <item>Arándanos</item>
+        <item>ChocoChip</item>
+        <item>Avena</item>
+    </string-array>
+
+    <string name="tipoRelleno">Elija su Relleno</string>
+    <string-array name="tipoRellenoGalletas">
+        <item>Queso Crema</item>
+        <item>Nutella</item>
+        <item>Crema de Cacahuate</item>
+        <item>Frutal</item>
+    </string-array>
+
+    <string name="msg_prod">Productos disponibles</string>
+    <string-array name="products">
+        <item>Elija su producto</item>
+        <item>Pan dulce</item>
+        <item>Pastel</item>
+        <item>Galletas</item>
+    </string-array>
+
+    <string name="label_decoracion">Elija su decoración</string>
+    <string-array name="tipoDecoracion">
+        <item>Tradicional</item>
+        <item>Chocolates</item>
+        <item>Personalizada</item>
+    </string-array>
+
+    <string name="label_tipopan">Elija el sabor de su pastel</string>
+    <string-array name="tipoPan">
+        <item>Vainilla</item>
+        <item>Chocolate</item>
+        <item>RedVelvet</item>
+        <item>Confetti</item>
+        <item>Zanahoria</item>
+        <item>3 Leches</item>
+    </string-array>
+
+    <string name="label_mensaje">Mensaje escrito</string>
+    <string-array name="tipoMensaje">
+        <item>Ninguno</item>
+        <item>Feliz Cumpleaños</item>
+        <item>Feliz Dia</item>
+        <item>Personalizado</item>
+    </string-array>
+
+    <string name="label_tam">Tamaño</string>
+    <string-array name="tamanios">
+        <item>Individual</item>
+        <item>4 Personas</item>
+        <item>6 Personas</item>
+        <item>Media plancha</item>
+        <item>Plancha</item>
+    </string-array>
+
+    <string name="label_tipo">Tipo de Pan</string>
+    <string-array name="tipoPanDulce">
+        <item>Dona</item>
+        <item>Cuerno</item>
+        <item>Torcido</item>
+        <item>Oreja</item>
+        <item>Concha</item>
+    </string-array>
+
+    <string name="label_tamPan">Tamaño</string>
+    <string-array name="tamPan">
+        <item>Mini</item>
+        <item>Normal</item>
+        <item>Jumbo</item>
+    </string-array>
+
+    <string name="label_harina">Tipo de Harina</string>
+    <string-array name="tipoHarina">
+        <item>Refinada</item>
+        <item>Integral</item>
+        <item>Vegana</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_checkout">Resumen del pedido</string>
+    <string name="btn_enviar">Enviar pedido</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="envio_exitoso"> ¡¡¡ENVIO EXITOSO!!!</string>
+    <string name="leyenda">Su pedido se está procesando...</string>
+    <string name="leyenda2">Muchas gracias por su compra!</string>
+    <string name="leyenda3">Del cielo a su mesa,vuelva pronto.</string>
+    <string name="btn_maps">Encuentranos en Google Maps</string>
+    <string name="btn_contact">Contáctanos por WhatsApp</string>
+    <string name="title_activity_map">MapActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnvioFinalFragment"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:fontFamily="@font/amaranth_bold"
+            android:text="@string/envio_exitoso"
+            android:textColor="#1A36D1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="289dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="47dp"
+            android:layout_marginEnd="48dp"
+            android:text="@string/leyenda"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="313dp"
+            android:layout_height="44dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="94dp"
+            android:layout_marginEnd="34dp"
+            android:text="@string/leyenda2"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="128dp"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="@font/charm_bold"
+            android:text="@string/leyenda3"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnRegresarNewPed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginEnd="117dp"
+            android:text="@string/btn_nuevoPedido" />
+
+        <ImageButton
+            android:id="@+id/btn_maps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="300dp"
+            android:src="@drawable/logo_google_maps"
+            android:text="@string/btn_maps" />
+
+        <ImageButton
+            android:id="@+id/btn_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="bottom|right"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="27dp"
+            android:src="@drawable/contacto"
+            android:text="@string/btn_contact" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

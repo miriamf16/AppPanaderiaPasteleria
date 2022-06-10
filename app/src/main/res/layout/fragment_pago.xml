@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PagoFragment">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_horizontal"
+                            android:text="@string/title_checkout"
+                            android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/test"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="9dp"
+                            android:layout_marginBottom="10dp" />
+
+                        <TextView
+                            android:id="@+id/lbl_total"
+                            android:layout_width="219dp"
+                            android:layout_height="84dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="73dp"
+                            android:textAppearance="@style/TextAppearance.Material3.TitleMedium" />
+
+                        <Button
+                            android:id="@+id/btnEnviarPedido"
+                            android:layout_width="112dp"
+                            android:layout_height="89dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginStart="18dp"
+                            android:layout_marginTop="440dp"
+                            android:layout_marginEnd="37dp"
+                            android:layout_marginBottom="0dp"
+                            android:layout_toEndOf="@+id/lbl_total"
+                            android:hint="@string/btn_enviar"
+                            android:textColorHint="@color/black" />
+
+                </RelativeLayout>
+        </ScrollView>
+
+</FrameLayout>

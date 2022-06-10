@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudio/PanaderiaPasteleria/app/src/main/res/font/bad_script.xml" value="0.284375" />
+        <entry key="..\:/AndroidStudio/PanaderiaPasteleria/app/src/main/res/font/charm_bold.xml" value="0.284375" />
+        <entry key="..\:/AndroidStudio/PanaderiaPasteleria/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/PanaderiaPasteleria/app/src/main/res/layout/activity_map.xml" value="0.1" />
+        <entry key="..\:/AndroidStudio/PanaderiaPasteleria/app/src/main/res/layout/activity_productos.xml" value="0.1" />
+        <entry key="..\:/AndroidStudio/PanaderiaPasteleria/app/src/main/res/layout/display_logo.xml" value="0.21302083333333333" />
+        <entry key="..\:/AndroidStudio/PanaderiaPasteleria/app/src/main/res/layout/display_productos.xml" value="0.1" />
+        <entry key="..\:/AndroidStudio/PanaderiaPasteleria/app/src/main/res/layout/fragment_envio.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudio/PanaderiaPasteleria/app/src/main/res/layout/fragment_envio_final.xml" value="0.2" />
+        <entry key="..\:/AndroidStudio/PanaderiaPasteleria/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/AndroidStudio/PanaderiaPasteleria/app/src/main/res/layout/fragment_galletas_campos.xml" value="0.4" />
+        <entry key="..\:/AndroidStudio/PanaderiaPasteleria/app/src/main/res/layout/fragment_pago.xml" value="0.176" />
+        <entry key="..\:/AndroidStudio/PanaderiaPasteleria/app/src/main/res/layout/fragment_pan_dulce_campos.xml" value="0.4" />
+        <entry key="..\:/AndroidStudio/PanaderiaPasteleria/app/src/main/res/layout/fragment_pastel_campos.xml" value="0.2" />
+        <entry key="..\:/AndroidStudio/PanaderiaPasteleria/app/src/main/res/layout/fragment_productos_detail.xml" value="0.152" />
+        <entry key="..\:/AndroidStudio/PanaderiaPasteleria/app/src/main/res/layout/galletas_campos.xml" value="0.15942028985507245" />
+        <entry key="..\:/AndroidStudio/PanaderiaPasteleria/app/src/main/res/layout/seleccion_productos.xml" value="0.21302083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.152" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

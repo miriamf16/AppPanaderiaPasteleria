@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PastelCamposFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/tituloSaborPan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_tipopan"
+            android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnersaborPan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tituloSaborPan"
+           android:entries="@array/tipoPan" />
+
+        <TextView
+            android:id="@+id/tituloRellenoPastel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinnersaborPan"
+            android:text="@string/tipoRelleno"
+            android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerrellenos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="73dp"
+            android:entries="@array/tipoRellenoGalletas" />
+
+        <TextView
+            android:id="@+id/tituloDecoracion"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinnerrellenos"
+            android:layout_alignLeft="@id/spinnerrellenos"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/label_decoracion"
+            android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerDeco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tituloDecoracion"
+            android:entries="@array/tipoDecoracion" />
+
+        <TextView
+            android:id="@+id/tituloMsg"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinnerDeco"
+            android:layout_alignLeft="@id/spinnerDeco"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/label_mensaje"
+            android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tituloMsg"
+            android:entries="@array/tipoMensaje" />
+
+        <TextView
+            android:id="@+id/tituloTam"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinnerMensaje"
+            android:layout_alignLeft="@id/spinnerMensaje"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/label_tam"
+            android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerTam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tituloTam"
+            android:entries="@array/tamanios" />
+
+        <Button
+            android:id="@+id/agregarPastel"
+            android:layout_width="132dp"
+            android:layout_height="68dp"
+            android:layout_below="@id/spinnerTam"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="185dp"
+            android:layout_marginTop="9dp"
+            android:hint="Agregar Producto" />
+
+        <TextView
+            android:id="@+id/subtotal_pastel"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinnerTam"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="29dp"
+            android:textAlignment="center" />
+
+    </RelativeLayout>
+    </ScrollView>
+</FrameLayout>
